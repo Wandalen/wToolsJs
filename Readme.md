@@ -10,5 +10,5 @@ Collection of general purpose tools for solving problems. Fundamentally extend t
 
 | Module | Stability | Master |
 |--------|-----------|--------|
-| [wTools](./module/wTools) | [![experimental](https://raster.shields.io/static/v1?label=&message=experimental&color=orange)](https://github.com/emersion/stability-badges#experimental) | [![js-status](https://img.shields.io/github/workflow/status/Wandalen/wTools/js_publish?label=)](https://github.com/Wandalen/wTools/actions/workflows/StandardJsPublish.yml) |
+| [wTools](./module/wTools) | [![experimental](https://raster.shields.io/static/v1?label=&message=experimental&color=orange)](https://github.com/emersion/stability-badges#experimental) | [![js-status](https://img.shields.io/github/workflow/status/Wandalen/wToolsJs/js_publish?label=)](https://github.com/Wandalen/wToolsJs/actions/workflows/StandardJsPublish.yml) |
 
