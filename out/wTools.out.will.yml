@@ -3,8 +3,8 @@ root:
   - wTools.out
 consistency:
   ../will.yml: &ref_0
-    hash: f8c1af9385e2f5db7a6ad4c1ecc32545
-    size: 9289
+    hash: b698f194f9632660a5fb7cf992d3403f
+    size: 9292
 module:
   wTools.out:
     about:
@@ -67,13 +67,13 @@ module:
           predefined: 1
         path: ..
       repository:
-        path: 'git+https:///github.com/Wandalen/wTools.git'
+        path: 'git+https:///github.com/Wandalen/wToolsJs.git'
       origins:
         path:
-          - 'git+https:///github.com/Wandalen/wTools.git'
+          - 'git+https:///github.com/Wandalen/wToolsJs.git'
           - 'npm:///wTools'
       bugtracker:
-        path: 'https:///github.com/Wandalen/wTools/issues'
+        path: 'https:///github.com/Wandalen/wToolsJs/issues'
       in:
         path: .
       out:
@@ -116,7 +116,7 @@ module:
       out.release.min:
         path: '{path::out}/release.min'
       npm.publish:
-        path: '../module/js/{about::name}'
+        path: '../module/{about::name}'
       npm.proto.entry:
         path:
           - ../proto/wtools/abase/l1/Include.s
@@ -559,8 +559,6 @@ module:
           - ../proto/wtools/abase/l1.test/Str.test.s
           - ../proto/wtools/abase/l1.test/TreeMap.test.s
           - ../proto/wtools/abase/l1.test/Trie.test.s
-          - ../proto/wtools/amid
-          - ../proto/wtools/atop
     submodule:
       wTesting:
         path: 'npm:///wTesting'
@@ -1270,13 +1268,13 @@ module:
           predefined: 1
         path: .
       repository:
-        path: 'git+https:///github.com/Wandalen/wTools.git'
+        path: 'git+https:///github.com/Wandalen/wToolsJs.git'
       origins:
         path:
-          - 'git+https:///github.com/Wandalen/wTools.git'
+          - 'git+https:///github.com/Wandalen/wToolsJs.git'
           - 'npm:///wTools'
       bugtracker:
-        path: 'https:///github.com/Wandalen/wTools/issues'
+        path: 'https:///github.com/Wandalen/wToolsJs/issues'
       in:
         path: .
       out:
@@ -1319,7 +1317,7 @@ module:
       out.release.min:
         path: '{path::out}/release.min'
       npm.publish:
-        path: 'module/js/{about::name}'
+        path: 'module/{about::name}'
       npm.proto.entry:
         path:
           - proto/wtools/abase/l1/Include.s
@@ -1935,5 +1933,5 @@ module:
           - 'step::reflect.rust.modules'
     consistency:
       ../will.yml:
-        hash: f8c1af9385e2f5db7a6ad4c1ecc32545
-        size: 9289
+        hash: b698f194f9632660a5fb7cf992d3403f
+        size: 9292
